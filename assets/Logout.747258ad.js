@@ -1,0 +1,1 @@
+import{aQ as e,o,j as t}from"./index.e05c9ea9.js";const s={__name:"Logout",setup(r){return e(()=>{localStorage.removeItem("OptTk"),$router.push("/login")}),(a,n)=>(o(),t("div"))}};export{s as default};
