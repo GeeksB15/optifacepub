@@ -1,0 +1,1 @@
+import{d as o}from"./index.d96df0b0.js";import{b as a}from"./index.8f4630be.js";import"./app.c33857a8.js";var i=a(async({app:r})=>{r.config.globalProperties.$db=o,globalThis.$db=o});export{i as default};
