@@ -1,0 +1,1 @@
+import{L as e}from"./index.c9595cd1.js";const s=e("");fetch("/versao.json").then(async o=>{const a=await o.json();s.value=a.versao}).catch(async()=>{const a=await(await fetch(`/${new URL(location.href).pathname.split("/")[1]}/versao.json`)).json();s.value=a.versao});var t={versao:s};export{t as a};
